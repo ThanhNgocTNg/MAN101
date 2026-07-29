@@ -1,0 +1,664 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAN101 - Giáo Trình Điện Tử Rikkei Education</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <style id="tailwind-css">
+*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;font-family:Inter,sans-serif;font-feature-settings:normal;font-variation-settings:normal;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-tap-highlight-color:transparent}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-size:1em;font-variation-settings:normal}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-feature-settings:inherit;font-size:100%;font-variation-settings:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}@media (min-width:1536px){.container{max-width:1536px}}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.-bottom-10{bottom:-2.5rem}.-right-10{right:-2.5rem}.-top-10{top:-2.5rem}.bottom-0{bottom:0}.bottom-8{bottom:2rem}.left-0{left:0}.right-8{right:2rem}.top-0{top:0}.top-16{top:4rem}.z-10{z-index:10}.z-40{z-index:40}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.my-2{margin-bottom:.5rem;margin-top:.5rem}.my-4{margin-bottom:1rem;margin-top:1rem}.mb-1{margin-bottom:.25rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.ml-3{margin-left:.75rem}.mt-1{margin-top:.25rem}.mt-12{margin-top:3rem}.mt-2{margin-top:.5rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.line-clamp-2{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:2}.flex{display:flex}.table{display:table}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-12{height:3rem}.h-16{height:4rem}.h-40{height:10rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-80{height:20rem}.h-9{height:2.25rem}.h-full{height:100%}.max-h-0{max-height:0}.min-h-\[54px\]{min-height:54px}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-12{width:3rem}.w-40{width:10rem}.w-80{width:20rem}.w-auto{width:auto}.w-full{width:100%}.w-px{width:1px}.max-w-3xl{max-width:48rem}.max-w-7xl{max-width:80rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.-translate-x-full{--tw-translate-x:-100%}.-translate-x-full,.translate-y-0{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-y-0{--tw-translate-y:0px}.translate-y-4{--tw-translate-y:1rem}.transform,.translate-y-4{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.select-none{-webkit-user-select:none;-moz-user-select:none;user-select:none}.list-disc{list-style-type:disc}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-2\.5{gap:.625rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.space-y-10>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(2.5rem*var(--tw-space-y-reverse));margin-top:calc(2.5rem*(1 - var(--tw-space-y-reverse)))}.space-y-12>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(3rem*var(--tw-space-y-reverse));margin-top:calc(3rem*(1 - var(--tw-space-y-reverse)))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.5rem*var(--tw-space-y-reverse));margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.75rem*var(--tw-space-y-reverse));margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1rem*var(--tw-space-y-reverse));margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1.5rem*var(--tw-space-y-reverse));margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)))}.space-y-8>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(2rem*var(--tw-space-y-reverse));margin-top:calc(2rem*(1 - var(--tw-space-y-reverse)))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.truncate{overflow:hidden;text-overflow:ellipsis}.truncate,.whitespace-nowrap{white-space:nowrap}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-md{border-radius:.375rem}.rounded-xl{border-radius:.75rem}.rounded-r-lg{border-bottom-right-radius:.5rem;border-top-right-radius:.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l-2{border-left-width:2px}.border-l-4{border-left-width:4px}.border-l-8{border-left-width:8px}.border-r{border-right-width:1px}.border-t{border-top-width:1px}.border-amber-300{--tw-border-opacity:1;border-color:rgb(252 211 77/var(--tw-border-opacity,1))}.border-amber-500{--tw-border-opacity:1;border-color:rgb(245 158 11/var(--tw-border-opacity,1))}.border-blue-200{--tw-border-opacity:1;border-color:rgb(191 219 254/var(--tw-border-opacity,1))}.border-blue-300{--tw-border-opacity:1;border-color:rgb(147 197 253/var(--tw-border-opacity,1))}.border-blue-500{--tw-border-opacity:1;border-color:rgb(59 130 246/var(--tw-border-opacity,1))}.border-emerald-200{--tw-border-opacity:1;border-color:rgb(167 243 208/var(--tw-border-opacity,1))}.border-emerald-300{--tw-border-opacity:1;border-color:rgb(110 231 183/var(--tw-border-opacity,1))}.border-emerald-500{--tw-border-opacity:1;border-color:rgb(16 185 129/var(--tw-border-opacity,1))}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity,1))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity,1))}.border-gray-200\/80{border-color:rgba(229,231,235,.8)}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity,1))}.border-pink-300{--tw-border-opacity:1;border-color:rgb(249 168 212/var(--tw-border-opacity,1))}.border-red-100{--tw-border-opacity:1;border-color:rgb(254 226 226/var(--tw-border-opacity,1))}.border-red-200{--tw-border-opacity:1;border-color:rgb(254 202 202/var(--tw-border-opacity,1))}.border-rikkei-navy{--tw-border-opacity:1;border-color:rgb(60 47 106/var(--tw-border-opacity,1))}.border-rikkei-navy\/20{border-color:rgba(60,47,106,.2)}.border-rikkei-red{--tw-border-opacity:1;border-color:rgb(192 0 0/var(--tw-border-opacity,1))}.border-transparent{border-color:transparent}.border-white\/10{border-color:hsla(0,0%,100%,.1)}.border-white\/20{border-color:hsla(0,0%,100%,.2)}.bg-amber-50{--tw-bg-opacity:1;background-color:rgb(255 251 235/var(--tw-bg-opacity,1))}.bg-amber-500{--tw-bg-opacity:1;background-color:rgb(245 158 11/var(--tw-bg-opacity,1))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255/var(--tw-bg-opacity,1))}.bg-emerald-50{--tw-bg-opacity:1;background-color:rgb(236 253 245/var(--tw-bg-opacity,1))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity,1))}.bg-gray-100\/80{background-color:rgba(243,244,246,.8)}.bg-gray-100\/90{background-color:rgba(243,244,246,.9)}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity,1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity,1))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity,1))}.bg-indigo-50{--tw-bg-opacity:1;background-color:rgb(238 242 255/var(--tw-bg-opacity,1))}.bg-pink-100{--tw-bg-opacity:1;background-color:rgb(252 231 243/var(--tw-bg-opacity,1))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity,1))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242/var(--tw-bg-opacity,1))}.bg-rikkei-lightnavy{--tw-bg-opacity:1;background-color:rgb(243 242 248/var(--tw-bg-opacity,1))}.bg-rikkei-navy{--tw-bg-opacity:1;background-color:rgb(60 47 106/var(--tw-bg-opacity,1))}.bg-rikkei-red{--tw-bg-opacity:1;background-color:rgb(192 0 0/var(--tw-bg-opacity,1))}.bg-rikkei-red\/10{background-color:rgba(192,0,0,.1)}.bg-rikkei-red\/20{background-color:rgba(192,0,0,.2)}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252/var(--tw-bg-opacity,1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.bg-white\/10{background-color:hsla(0,0%,100%,.1)}.bg-white\/15{background-color:hsla(0,0%,100%,.15)}.bg-white\/20{background-color:hsla(0,0%,100%,.2)}.bg-white\/95{background-color:hsla(0,0%,100%,.95)}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-amber-600{--tw-gradient-from:#d97706 var(--tw-gradient-from-position);--tw-gradient-to:rgba(217,119,6,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-emerald-50{--tw-gradient-from:#ecfdf5 var(--tw-gradient-from-position);--tw-gradient-to:rgba(236,253,245,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-red-50{--tw-gradient-from:#fef2f2 var(--tw-gradient-from-position);--tw-gradient-to:hsla(0,86%,97%,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-red-50\/90{--tw-gradient-from:hsla(0,86%,97%,.9) var(--tw-gradient-from-position);--tw-gradient-to:hsla(0,86%,97%,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-rikkei-navy{--tw-gradient-from:#3c2f6a var(--tw-gradient-from-position);--tw-gradient-to:rgba(60,47,106,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:hsla(0,0%,100%,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-orange-50{--tw-gradient-to:rgba(255,247,237,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#fff7ed var(--tw-gradient-via-position),var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgba(15,23,42,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#0f172a var(--tw-gradient-via-position),var(--tw-gradient-to)}.via-white{--tw-gradient-to:hsla(0,0%,100%,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#fff var(--tw-gradient-via-position),var(--tw-gradient-to)}.to-amber-50{--tw-gradient-to:#fffbeb var(--tw-gradient-to-position)}.to-amber-50\/50{--tw-gradient-to:rgba(255,251,235,.5) var(--tw-gradient-to-position)}.to-amber-700{--tw-gradient-to:#b45309 var(--tw-gradient-to-position)}.to-red-50{--tw-gradient-to:#fef2f2 var(--tw-gradient-to-position)}.to-rikkei-red{--tw-gradient-to:#c00000 var(--tw-gradient-to-position)}.to-teal-50{--tw-gradient-to:#f0fdfa var(--tw-gradient-to-position)}.object-contain{-o-object-fit:contain;object-fit:contain}.p-2{padding:.5rem}.p-2\.5{padding:.625rem}.p-3{padding:.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-3\.5{padding-left:.875rem;padding-right:.875rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-0\.5{padding-bottom:.125rem;padding-top:.125rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.py-2\.5{padding-bottom:.625rem;padding-top:.625rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.py-3\.5{padding-bottom:.875rem;padding-top:.875rem}.py-8{padding-bottom:2rem;padding-top:2rem}.pb-1{padding-bottom:.25rem}.pb-3{padding-bottom:.75rem}.pb-4{padding-bottom:1rem}.pb-6{padding-bottom:1.5rem}.pl-3{padding-left:.75rem}.pl-4{padding-left:1rem}.pl-5{padding-left:1.25rem}.pr-1{padding-right:.25rem}.pr-2{padding-right:.5rem}.pt-3{padding-top:.75rem}.pt-4{padding-top:1rem}.pt-6{padding-top:1.5rem}.text-left{text-align:left}.text-center{text-align:center}.font-heading{font-family:Montserrat,sans-serif}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-normal{font-weight:400}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-none{line-height:1}.leading-relaxed{line-height:1.625}.leading-snug{line-height:1.375}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-.025em}.tracking-wide{letter-spacing:.025em}.tracking-wider{letter-spacing:.05em}.tracking-widest{letter-spacing:.1em}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36/var(--tw-text-opacity,1))}.text-amber-500{--tw-text-opacity:1;color:rgb(245 158 11/var(--tw-text-opacity,1))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity,1))}.text-amber-800{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity,1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235/var(--tw-text-opacity,1))}.text-blue-800{--tw-text-opacity:1;color:rgb(30 64 175/var(--tw-text-opacity,1))}.text-blue-900{--tw-text-opacity:1;color:rgb(30 58 138/var(--tw-text-opacity,1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity,1))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity,1))}.text-emerald-800{--tw-text-opacity:1;color:rgb(6 95 70/var(--tw-text-opacity,1))}.text-emerald-900{--tw-text-opacity:1;color:rgb(6 78 59/var(--tw-text-opacity,1))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity,1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity,1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity,1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity,1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity,1))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity,1))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity,1))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229/var(--tw-text-opacity,1))}.text-pink-600{--tw-text-opacity:1;color:rgb(219 39 119/var(--tw-text-opacity,1))}.text-rikkei-darkred{--tw-text-opacity:1;color:rgb(144 0 0/var(--tw-text-opacity,1))}.text-rikkei-navy{--tw-text-opacity:1;color:rgb(60 47 106/var(--tw-text-opacity,1))}.text-rikkei-red{--tw-text-opacity:1;color:rgb(192 0 0/var(--tw-text-opacity,1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.text-yellow-300{--tw-text-opacity:1;color:rgb(253 224 71/var(--tw-text-opacity,1))}.opacity-0{opacity:0}.opacity-100{opacity:1}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgba(0,0,0,.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color)}.shadow-2xl,.shadow-inner{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgba(0,0,0,.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-lg,.shadow-sm{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgba(0,0,0,.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-red-600\/30{--tw-shadow-color:rgba(220,38,38,.3);--tw-shadow:var(--tw-shadow-colored)}.blur-3xl{--tw-blur:blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-transform{transition-duration:.15s;transition-property:transform;transition-timing-function:cubic-bezier(.4,0,.2,1)}.duration-300{transition-duration:.3s}.duration-700{transition-duration:.7s}.ease-out{transition-timing-function:cubic-bezier(0,0,.2,1)}.selection\:bg-red-500 ::-moz-selection{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity,1))}.selection\:bg-red-500 ::selection{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity,1))}.selection\:text-white ::-moz-selection{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.selection\:text-white ::selection{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.selection\:bg-red-500::-moz-selection{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity,1))}.selection\:bg-red-500::selection{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity,1))}.selection\:text-white::-moz-selection{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.hover\:-translate-y-1\.5:hover{--tw-translate-y:-0.375rem}.hover\:-translate-y-1\.5:hover,.hover\:scale-105:hover{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05}.hover\:border-rikkei-red:hover{--tw-border-opacity:1;border-color:rgb(192 0 0/var(--tw-border-opacity,1))}.hover\:bg-amber-50:hover{--tw-bg-opacity:1;background-color:rgb(255 251 235/var(--tw-bg-opacity,1))}.hover\:bg-amber-600:hover{--tw-bg-opacity:1;background-color:rgb(217 119 6/var(--tw-bg-opacity,1))}.hover\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity,1))}.hover\:bg-gray-50:hover{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity,1))}.hover\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity,1))}.hover\:bg-indigo-100:hover{--tw-bg-opacity:1;background-color:rgb(224 231 255/var(--tw-bg-opacity,1))}.hover\:bg-pink-200:hover{--tw-bg-opacity:1;background-color:rgb(251 207 232/var(--tw-bg-opacity,1))}.hover\:bg-red-50:hover{--tw-bg-opacity:1;background-color:rgb(254 242 242/var(--tw-bg-opacity,1))}.hover\:bg-red-50\/80:hover{background-color:hsla(0,86%,97%,.8)}.hover\:bg-red-700:hover{--tw-bg-opacity:1;background-color:rgb(185 28 28/var(--tw-bg-opacity,1))}.hover\:bg-white\/20:hover{background-color:hsla(0,0%,100%,.2)}.hover\:text-rikkei-red:hover{--tw-text-opacity:1;color:rgb(192 0 0/var(--tw-text-opacity,1))}.hover\:shadow-xl:hover{--tw-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.group:hover .group-hover\:max-h-96{max-height:24rem}.group:hover .group-hover\:translate-x-1{--tw-translate-x:0.25rem}.group:hover .group-hover\:rotate-180,.group:hover .group-hover\:translate-x-1{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:rotate-180{--tw-rotate:180deg}.group:hover .group-hover\:scale-150{--tw-scale-x:1.5;--tw-scale-y:1.5;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:py-1\.5{padding-bottom:.375rem;padding-top:.375rem}.group:hover .group-hover\:text-rikkei-red{--tw-text-opacity:1;color:rgb(192 0 0/var(--tw-text-opacity,1))}.group:hover .group-hover\:opacity-100{opacity:1}@media (min-width:640px){.sm\:inline{display:inline}.sm\:inline-flex{display:inline-flex}.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:flex-row{flex-direction:row}.sm\:items-center{align-items:center}.sm\:gap-2\.5{gap:.625rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:px-8{padding-left:2rem;padding-right:2rem}.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}.sm\:text-base{font-size:1rem;line-height:1.5rem}}@media (min-width:768px){.md\:block{display:block}.md\:h-11{height:2.75rem}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.md\:flex-row{flex-direction:row}.md\:gap-4{gap:1rem}.md\:p-10{padding:2.5rem}.md\:p-12{padding:3rem}.md\:text-3xl{font-size:1.875rem;line-height:2.25rem}.md\:text-5xl{font-size:3rem;line-height:1}.md\:text-base{font-size:1rem;line-height:1.5rem}}@media (min-width:1024px){.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\:grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.lg\:px-12{padding-left:3rem;padding-right:3rem}.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-pink-950\/60{background-color:rgba(80,7,36,.6)}.dark\:bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59/var(--tw-bg-opacity,1))}.dark\:text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36/var(--tw-text-opacity,1))}.dark\:text-blue-400{--tw-text-opacity:1;color:rgb(96 165 250/var(--tw-text-opacity,1))}.dark\:text-emerald-400{--tw-text-opacity:1;color:rgb(52 211 153/var(--tw-text-opacity,1))}.dark\:text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity,1))}.dark\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity,1))}.dark\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity,1))}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}}
+</style>
+  <!-- MARKMAP LIBRARIES -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-view"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-lib"></script>
+
+  <!-- MERMAID JS (For Flowcharts inside content) -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: true, theme: 'default' });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <style>
+    body { background-color: #f8fafc; color: #1e293b; overflow-x: hidden; }
+    .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #f1f5f9; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #C00000; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    .animate-fade { animation: fadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    .sidebar { transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+    .sidebar.open { transform: translateX(0); }
+    .tab-btn.active { background-color: #C00000 !important; color: #ffffff !important; border-color: #C00000 !important; box-shadow: 0 4px 12px rgba(192, 0, 0, 0.35); }
+    .mermaid { background: #ffffff; padding: 1.5rem; border-radius: 1rem; border: 1px solid #e2e8f0; display: flex; justify-content: center; overflow-x: auto; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); }
+
+    /* DARK MODE THEME OVERRIDES */
+    body.dark-theme { background-color: #0f172a !important; color: #f8fafc !important; }
+    body.dark-theme header { background-color: rgba(15, 23, 42, 0.95) !important; border-bottom-color: #334155 !important; }
+    body.dark-theme aside.sidebar { background-color: #1e293b !important; border-right-color: #334155 !important; }
+    body.dark-theme aside.sidebar .nav-item { color: #e2e8f0 !important; }
+    body.dark-theme aside.sidebar .nav-item:hover { background-color: #334155 !important; }
+    body.dark-theme main [class*="bg-white"],
+    body.dark-theme article.lesson-panel[class*="bg-white"],
+    body.dark-theme [class*="bg-gray-50"],
+    body.dark-theme [class*="bg-slate-50"],
+    body.dark-theme [class*="bg-red-50"],
+    body.dark-theme [class*="bg-blue-50"],
+    body.dark-theme [class*="bg-emerald-50"],
+    body.dark-theme [class*="bg-amber-50"],
+    body.dark-theme [class*="bg-rikkei-lightnavy"],
+    body.dark-theme .diagram-card,
+    body.dark-theme .flow-box,
+    body.dark-theme .mermaid { background-color: #1e293b !important; border-color: #334155 !important; color: #f8fafc !important; }
+    body.dark-theme [class*="bg-gray-100"] { background-color: #334155 !important; border-color: #475569 !important; color: #f8fafc !important; }
+    body.dark-theme [class*="text-gray-9"], body.dark-theme [class*="text-gray-8"], body.dark-theme [class*="text-gray-7"], body.dark-theme [class*="text-gray-6"], body.dark-theme [class*="text-gray-5"], body.dark-theme [class*="text-rikkei-navy"], body.dark-theme [class*="text-rikkei-darkred"], body.dark-theme [class*="text-emerald-9"], body.dark-theme [class*="text-emerald-8"], body.dark-theme [class*="text-emerald-7"], body.dark-theme [class*="text-blue-9"], body.dark-theme [class*="text-blue-8"], body.dark-theme [class*="text-amber-8"] { color: #f8fafc !important; }
+    body.dark-theme [class*="from-slate-"], body.dark-theme [class*="from-white"], body.dark-theme [class*="from-gray-"], body.dark-theme [class*="from-emerald-"], body.dark-theme [class*="from-teal-"], body.dark-theme [class*="from-blue-"], body.dark-theme [class*="from-amber-"] { background-image: linear-gradient(to bottom right, #1e293b, #0f172a) !important; background-color: #1e293b !important; border-color: #334155 !important; }
+    body.dark-theme [class*="from-red-"] { background-image: linear-gradient(to right, #1e293b, #1a1528) !important; background-color: #1e293b !important; border-color: #991b1b !important; }
+  </style>
+</head>
+
+<body class="min-h-screen flex flex-col selection:bg-red-500 selection:text-white">
+
+  <!-- TOP NAVBAR -->
+  <header class="bg-white/95 backdrop-blur-md border-b border-gray-200 sticky top-0 z-40 h-16 px-4 sm:px-8 lg:px-12 flex items-center justify-between shadow-sm">
+    <div class="flex items-center gap-4">
+      <button id="sidebarTrigger" class="p-2.5 rounded-xl hover:bg-red-50 text-gray-700 hover:text-rikkei-red transition flex items-center gap-2 font-bold text-sm bg-gray-100/80 border border-gray-200">
+        <i class="ph-bold ph-list text-xl text-rikkei-red"></i>
+        <span class="hidden sm:inline">Danh sách Session</span>
+      </button>
+      <div class="h-6 w-px bg-gray-200 hidden md:block"></div>
+      <div class="flex items-center gap-3 md:gap-4">
+        <a href="#" onclick="showView('overview'); return false;" class="flex items-center gap-2">
+          <img src="https://rikkei.edu.vn/wp-content/uploads/2025/09/Logo.png" alt="Rikkei Education" class="h-9 md:h-11 w-auto object-contain transition hover:scale-105 duration-300">
+        </a>
+        <div class="h-5 w-px bg-gray-200 hidden md:block"></div>
+        <span class="bg-red-50 text-rikkei-red border border-red-200 text-sm md:text-base font-extrabold px-3 py-1 rounded-full uppercase tracking-wider hidden sm:inline-flex items-center gap-1.5 shadow-2xs">
+          <i class="ph-bold ph-book-open"></i> MAN101 &bull; Môn học
+        </span>
+      </div>
+    </div>
+    
+    <div class="flex items-center gap-2 sm:gap-2.5">
+      <button id="themeToggleBtn" onclick="toggleTheme()" class="w-10 h-10 rounded-full flex items-center justify-center bg-gray-900 text-yellow-300 hover:bg-gray-800 transition shadow-sm border border-gray-700 shrink-0">
+        <i id="themeToggleIcon" class="ph-fill ph-moon-stars text-lg"></i>
+      </button>
+      <button id="petToggleBtn" onclick="togglePetVisibility()" class="w-10 h-10 rounded-full flex items-center justify-center bg-pink-100 hover:bg-pink-200 text-pink-600 dark:bg-pink-950/60 transition shadow-sm border border-pink-300 shrink-0 cursor-pointer">
+        <span class="text-lg leading-none select-none" id="petToggleIcon">🐽</span>
+      </button>
+      <button onclick="showView('overview')" class="w-10 h-10 rounded-full flex items-center justify-center bg-gray-100 hover:bg-gray-200 text-gray-700 transition shadow-sm shrink-0">
+        <i class="ph-fill ph-house text-lg"></i>
+      </button>
+      <button onclick="showView('roadmap')" class="w-10 h-10 rounded-full flex items-center justify-center bg-amber-500 hover:bg-amber-600 text-white shadow-sm transition shrink-0">
+        <i class="ph-bold ph-map-trifold text-lg"></i>
+      </button>
+      <button onclick="showView('glossary')" class="w-10 h-10 rounded-full flex items-center justify-center bg-indigo-50 hover:bg-indigo-100 text-indigo-600 transition shadow-sm shrink-0">
+        <i class="ph-bold ph-translate text-lg"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- SIDEBAR DRAWER -->
+  <aside id="sidebar" class="sidebar fixed top-16 left-0 bottom-0 w-80 bg-white border-r border-gray-200 z-50 shadow-2xl -translate-x-full custom-scrollbar overflow-y-auto">
+    <div class="p-4 border-b border-gray-100 bg-red-50 flex items-center justify-between">
+      <span class="font-heading font-bold text-sm text-rikkei-darkred uppercase tracking-wider">Danh mục Giáo trình</span>
+      <span class="text-xs bg-rikkei-red text-white px-2 py-0.5 rounded-full font-bold">1 Sessions</span>
+    </div>
+    <div class="p-3 space-y-1">
+      <div onclick="showView('overview'); closeSidebar()" class="nav-item p-3 rounded-lg hover:bg-gray-50 cursor-pointer flex items-center gap-3 transition">
+        <i class="ph-fill ph-house-line text-lg text-rikkei-red"></i>
+        <span class="text-sm font-bold text-gray-700">Trang chủ Giáo trình</span>
+      </div>
+      <div onclick="showView('roadmap'); closeSidebar()" class="nav-item p-3 rounded-lg hover:bg-amber-50 cursor-pointer flex items-center gap-3 transition">
+        <i class="ph-fill ph-map-trifold text-lg text-amber-500"></i>
+        <span class="text-sm font-bold text-amber-700">Roadmap 10 Bước</span>
+      </div>
+      <div class="pt-3 pb-1 px-3 text-xs font-bold text-gray-400 uppercase tracking-wider">Danh sách Session</div>      <div class="group relative">
+        <div onclick="showSession(1); closeSidebar()" class="nav-item p-3 rounded-lg hover:bg-red-50 cursor-pointer flex items-center justify-between transition border-l-4 border-transparent hover:border-rikkei-red">
+          <div class="flex items-center gap-3 pr-2">
+            <span class="bg-red-100 text-rikkei-red font-extrabold text-xs px-2 py-1 rounded shrink-0">01</span>
+            <span class="text-sm font-semibold text-gray-700 leading-snug">Khái niệm kinh doanh, mục tiêu doanh nghiệp và hệ sinh thái số</span>
+          </div>
+          <i class="ph-bold ph-caret-down text-gray-400 group-hover:rotate-180 transition-transform text-xs shrink-0"></i>
+        </div>
+        <div class="max-h-0 overflow-hidden opacity-0 transition-all duration-300 ease-out group-hover:max-h-96 group-hover:opacity-100 group-hover:py-1.5 pl-4 pr-1 space-y-1 ml-3 border-l-2 border-red-100">          <div onclick="showView('view-session-1'); showLessonTab(1, 1); closeSidebar(); event.stopPropagation();" class="p-2 rounded-md hover:bg-red-50/80 cursor-pointer flex items-center gap-2 text-sm text-gray-600 transition hover:text-rikkei-red font-medium">
+            <i class="ph-bold ph-book-open text-rikkei-red shrink-0"></i>
+            <span class="truncate">Lesson 1: Khái niệm kinh doanh, mục tiêu doanh nghiệp và hệ sinh thái số</span>
+          </div>          <div onclick="showView('view-session-1'); showLessonTab(1, 2); closeSidebar(); event.stopPropagation();" class="p-2 rounded-md hover:bg-red-50/80 cursor-pointer flex items-center gap-2 text-sm text-gray-600 transition hover:text-rikkei-red font-medium">
+            <i class="ph-bold ph-book-open text-rikkei-red shrink-0"></i>
+            <span class="truncate">Lesson 2: Phân loại hình thức doanh nghiệp (Công ty TNHH, Cổ phần, SMEs)</span>
+          </div>          <div onclick="showView('view-session-1'); showLessonTab(1, 'btth'); closeSidebar(); event.stopPropagation();" class="p-2 rounded-md hover:bg-red-50/80 cursor-pointer flex items-center gap-2 text-sm text-gray-600 transition hover:text-rikkei-red font-medium">
+            <i class="ph-bold ph-pencil-simple text-emerald-600 shrink-0"></i>
+            <span class="truncate">Bài tập: Lựa chọn Mô hình và Định vị Mục tiêu Kinh doanh</span>
+          </div>        </div>
+      </div>    </div>
+  </aside>
+
+  <!-- MAIN CONTENT AREA -->
+  <main class="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+    <!-- VIEW 1: OVERVIEW PAGE -->
+    <div id="view-overview" class="space-y-12 animate-fade">
+      <div class="relative bg-gradient-to-r from-rikkei-navy via-slate-900 to-rikkei-red rounded-3xl p-8 md:p-12 text-white shadow-2xl overflow-hidden border border-white/10">
+        <div class="absolute -right-10 -bottom-10 w-80 h-80 bg-rikkei-red/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="relative z-10 max-w-3xl space-y-4">
+          <span class="bg-white/15 text-white border border-white/20 font-extrabold text-sm px-3.5 py-1 rounded-full uppercase tracking-wider backdrop-blur-md">Giáo trình Điện tử All-In-One</span>
+          <h1 class="font-heading font-black text-3xl sm:text-4xl md:text-5xl tracking-tight leading-tight">MAN101<br><span class="text-amber-400">QUẢN TRỊ KINH DOANH TỔNG QUAN</span></h1>
+          <p class="text-gray-200 text-sm sm:text-base leading-relaxed font-normal">Giáo trình Điện tử Interactive All-in-One — Trực quan hóa Nghiệp vụ & Thực chiến Doanh nghiệp</p>
+          <div class="pt-4 flex flex-wrap gap-4">
+            <button onclick="showSession(1)" class="px-6 py-3.5 rounded-xl bg-rikkei-red hover:bg-red-700 text-white font-bold text-sm shadow-lg shadow-red-600/30 transition flex items-center gap-2"><i class="ph-bold ph-rocket-launch text-lg"></i> Bắt đầu Session 01</button>
+            <button onclick="showView('roadmap')" class="px-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/20 text-white border border-white/20 font-bold text-sm backdrop-blur-md transition flex items-center gap-2"><i class="ph-bold ph-map-trifold text-lg"></i> Xem Roadmap Giải pháp</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="space-y-6">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-gray-200 pb-4">
+          <div>
+            <h3 class="font-heading font-extrabold text-2xl text-gray-900 dark:text-white">Danh Mục Session Đào Tạo</h3>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">          <div onclick="showSession(1)" class="group bg-white rounded-3xl p-6 border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition duration-300 cursor-pointer flex flex-col justify-between space-y-4">
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <span class="bg-rikkei-red/10 text-rikkei-red font-black text-sm px-3 py-1 rounded-xl">SESSION 01</span>
+              </div>
+              <h4 class="font-heading font-black text-lg text-gray-900 group-hover:text-rikkei-red transition line-clamp-2 leading-snug">Khái niệm kinh doanh, mục tiêu doanh nghiệp và hệ sinh thái số</h4>
+              <p class="text-sm text-gray-500 leading-relaxed">Khám phá kiến thức chuyên sâu và thực hành của Session 1</p>
+            </div>
+            <div class="pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-bold text-rikkei-red group-hover:translate-x-1 transition">
+              <span>Vào học session này</span>
+              <i class="ph-bold ph-arrow-right text-base"></i>
+            </div>
+          </div>        </div>
+      </div>
+    </div>
+
+    <!-- VIEW 2: ROADMAP VIEW -->
+    <div id="view-roadmap" class="hidden space-y-10 animate-fade">
+      <div class="bg-gradient-to-r from-amber-600 to-amber-700 rounded-3xl p-8 md:p-10 text-white shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="space-y-2">
+          <span class="bg-white/20 font-bold text-sm px-3 py-1 rounded-full uppercase tracking-wider">Hành Trình Chuỗi Giá Trị</span>
+          <h2 class="font-heading font-black text-3xl sm:text-4xl">Roadmap Khóa Học: N Bước Nghiệp Vụ Chuyên Sâu</h2>
+        </div>
+      </div>
+    </div>    <!-- SESSION 1 VIEW -->
+    <div id="view-session-1" class="hidden space-y-8 animate-fade">
+      <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-200 flex flex-col justify-between gap-4 border-l-8 border-rikkei-navy">
+        <div>
+          <span class="bg-rikkei-lightnavy text-rikkei-navy border border-rikkei-navy/20 font-extrabold text-sm px-3.5 py-1 rounded-full uppercase tracking-wider">SESSION 01</span>
+          <h2 class="font-heading font-black text-3xl text-gray-900 mt-2">Khái niệm kinh doanh, mục tiêu doanh nghiệp và hệ sinh thái số</h2>
+        </div>
+      </div>
+      
+      <!-- LESSONS TAB NAVIGATION BAR -->
+      <div class="bg-gray-100/90 p-2.5 rounded-2xl border border-gray-200 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2.5 shadow-inner">        <button onclick="showLessonTab(1, 1)" id="btn-s1-l1" class="tab-btn w-full h-full min-h-[54px] px-3.5 py-3 rounded-xl font-bold text-sm md:text-base bg-white text-gray-700 hover:bg-gray-50 transition shadow-sm border border-gray-200/80 flex items-center justify-center text-center gap-2 overflow-hidden">
+          <i class="ph-bold ph-book-open text-blue-600 text-lg shrink-0"></i>
+          <span class="font-bold whitespace-nowrap">Lesson 1</span>
+        </button>        <button onclick="showLessonTab(1, 2)" id="btn-s1-l2" class="tab-btn w-full h-full min-h-[54px] px-3.5 py-3 rounded-xl font-bold text-sm md:text-base bg-white text-gray-700 hover:bg-gray-50 transition shadow-sm border border-gray-200/80 flex items-center justify-center text-center gap-2 overflow-hidden">
+          <i class="ph-bold ph-book-open text-blue-600 text-lg shrink-0"></i>
+          <span class="font-bold whitespace-nowrap">Lesson 2</span>
+        </button>        <button onclick="showLessonTab(1, 'btth')" id="btn-s1-lbtth" class="tab-btn w-full h-full min-h-[54px] px-3.5 py-3 rounded-xl font-bold text-sm md:text-base bg-white text-gray-700 hover:bg-gray-50 transition shadow-sm border border-gray-200/80 flex items-center justify-center text-center gap-2 overflow-hidden">
+          <i class="ph-bold ph-laptop text-emerald-600 text-lg shrink-0"></i>
+          <span class="font-bold whitespace-nowrap">Bài tập</span>
+        </button>      </div>
+      
+      <div class="space-y-6">        <article id="panel-s1-l1" class="lesson-panel hidden bg-white rounded-3xl p-8 md:p-10 shadow-sm border border-gray-200 space-y-8 animate-fade">
+          <div class="border-b border-gray-200 pb-6 flex flex-col md:flex-row justify-between gap-4">
+            <div>
+              <span class="text-sm font-bold text-rikkei-red uppercase tracking-widest">Lesson 1 &bull; LT</span>
+              <h3 class="font-heading font-black text-2xl md:text-3xl text-gray-900 mt-1">Khái niệm kinh doanh, mục tiêu doanh nghiệp và hệ sinh thái số</h3>
+            </div>
+          </div>          <!-- STORY ARC CALLOUT BOX -->
+          <div class="bg-gradient-to-r from-red-50 via-orange-50 to-amber-50 border-l-8 border-rikkei-red p-6 rounded-2xl shadow-sm space-y-3">
+            <div class="flex items-center gap-2 text-rikkei-red font-black text-sm uppercase tracking-wider"><i class="ph-bold ph-film-slate text-xl"></i> Diễn biến Cốt truyện Liền mạch tại The Coffee Bean</div>
+            <p class="text-base text-gray-800 leading-relaxed font-semibold"><strong>🔗 Kết nối bài trước:</strong> Khởi đầu bài học</p>
+          </div>
+
+          <!-- SECTION 1: BỐI CẢNH & THÁCH THỨC -->
+          <section class="space-y-6">
+            <h4 class="font-heading font-bold text-xl text-gray-900 flex items-center gap-2">1. Đặt vấn đề (The Business Hook)</h4>
+            <div class="p-6 rounded-3xl bg-gradient-to-br from-white to-red-50 border border-red-200 shadow-sm relative overflow-hidden group">
+                <div class="absolute -right-10 -top-10 w-40 h-40 bg-red-100 rounded-full blur-3xl group-hover:scale-150 transition duration-700"></div>
+                <div class="relative z-10 space-y-4">
+                    <div class="flex items-center gap-3 border-b border-red-100 pb-3">
+                        <div class="w-10 h-10 rounded-full bg-rikkei-red flex items-center justify-center text-white shrink-0 shadow-sm">
+                            <i class="ph-bold ph-warning text-xl"></i>
+                        </div>
+                        <h5 class="font-bold text-lg text-rikkei-darkred uppercase tracking-wide">Nhiệm vụ & Khủng hoảng (Mission Briefing)</h5>
+                    </div>
+                    <div class="text-base text-gray-800 leading-relaxed">
+                        <p class="mb-3 text-gray-700 leading-relaxed">Bạn vừa được bổ nhiệm làm Giám đốc Điều hành (CEO) của <em>The Coffee Bean</em>, một chuỗi cà phê truyền thống với 5 cửa hàng tại Hà Nội. Tuy nhiên, 6 tháng gần đây, khi hàng loạt các thương hiệu như Mixue, Katinat ồ ạt mở cửa hàng, doanh thu của The Coffee Bean đã <strong>sụt giảm nghiêm trọng tới 40%</strong>.</p>
+<p class="text-gray-700 leading-relaxed font-semibold">Khách hàng trẻ tuổi hoàn toàn không bước chân vào quán vì họ không có ứng dụng đặt hàng, không có không gian check-in, và quy trình gọi món vẫn bằng giấy ghi tay.</p>
+<hr class="my-4 border-gray-200">
+<h6 class="font-bold text-rikkei-red mb-2"><i class="ph-bold ph-warning"></i> Xung đột Tư duy / Mâu thuẫn quản trị</h6>
+<ul class="list-disc pl-5 space-y-2 text-gray-700 mb-3">
+    <li><strong>CFO kiên quyết:</strong> "Chúng ta phải sa thải bớt nhân sự, giảm chất lượng hạt cà phê để duy trì biên lợi nhuận, nếu không công ty sẽ cạn vốn trong 3 tháng tới!"</li>
+    <li><strong>CMO phản bác:</strong> "Phải đổ tiền chạy quảng cáo TikTok, xây dựng App thành viên và giảm giá 50% để giành lại thị phần từ tay đối thủ!"</li>
+</ul>
+<p class="text-gray-700 leading-relaxed italic border-l-4 border-rikkei-red pl-3 py-1 bg-red-50">Bạn đứng giữa hai luồng ý kiến trái chiều: Một bên là bảo vệ sự sinh tồn ngắn hạn, một bên là đầu tư rủi ro để chuyển mình.</p>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- SECTION 2: RCA -->
+          <section class="space-y-6">
+            <h4 class="font-heading font-bold text-xl text-gray-900 flex items-center gap-2">2. Phân tích nguyên nhân gốc rễ (RCA)</h4>
+            <div class="p-6 rounded-3xl bg-gradient-to-br from-red-50/90 via-white to-amber-50/50 border-2 border-red-200 shadow-sm space-y-4">
+               <p class="text-gray-700 leading-relaxed mb-3">Vấn đề cốt lõi của The Coffee Bean là họ đã <strong>đánh mất "Mục tiêu doanh nghiệp"</strong> trong bối cảnh thị trường thay đổi, và hoàn toàn <strong>đứng ngoài "Hệ sinh thái số"</strong>.</p>
+<p class="text-gray-700 leading-relaxed">Kinh doanh không chỉ là mua rẻ bán đắt, mà là một hệ thống phức tạp nhằm tạo ra giá trị. Khóa học sẽ cung cấp cho bạn lăng kính của một nhà quản lý thực thụ để định hướng lại con thuyền này.</p>
+            </div>
+          </section>
+
+          <!-- SECTION 3: LÝ THUYẾT -->
+          <section class="space-y-6">
+            <h4 class="font-heading font-bold text-xl text-gray-900 flex items-center gap-2">3. Giảng giải lý thuyết & Mô hình quản trị</h4>
+            <div class="space-y-4">
+              <div class="p-6 rounded-2xl bg-gray-50 border border-gray-200 shadow-inner">
+                <h5 class="font-heading font-bold text-lg text-rikkei-navy">3.1. Bản chất của Kinh doanh</h5>
+                <div class='space-y-3 my-2'><p class='text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed'><p class="text-gray-700 leading-relaxed mb-3">Kinh doanh (Business) mang tính hệ thống và bao trùm hơn rất nhiều so với việc chỉ "kiếm tiền".</p>
+<blockquote class="border-l-4 border-rikkei-navy pl-4 py-2 my-4 italic text-gray-700 bg-rikkei-lightnavy rounded-r-lg">
+"Kinh doanh là một hệ thống các hoạt động có tổ chức của những cá nhân hoặc tổ chức nhằm sản xuất, mua bán các loại hàng hóa hoặc dịch vụ để thỏa mãn nhu cầu của xã hội, với mục tiêu cuối cùng là thu được lợi nhuận."
+</blockquote>
+<div class="mermaid my-4 flex justify-center">
+graph LR
+    A[Nhu cầu Xã hội] --> B(Tổ chức & Quy trình)
+    B --> C{Trao đổi Giá trị}
+    C -->|Giải pháp| D[Khách hàng]
+    D -->|Doanh thu| C
+    C --> E[Lợi nhuận]
+    style C fill:#fce7f3,stroke:#db2777,stroke-width:2px
+</div>
+<ul class="list-disc pl-5 space-y-2 text-gray-700 mb-4 mt-4">
+    <li><strong>Sự trao đổi giá trị (Value Exchange):</strong> Giải quyết nỗi đau (pain point) của khách hàng để đổi lấy doanh thu.</li>
+    <li><strong>Tính rủi ro (Risk):</strong> Đầu tư vào tương lai không chắc chắn.</li>
+    <li><strong>Tính liên tục và có tổ chức:</strong> Đòi hỏi sự lặp lại, có quy trình và tổ chức bộ máy.</li>
+</ul></p></div>
+              </div>
+              <div class="p-6 rounded-2xl bg-gray-50 border border-gray-200 shadow-inner">
+                <h5 class="font-heading font-bold text-lg text-rikkei-navy">3.2. Hệ thống Mục tiêu của Doanh nghiệp</h5>
+                <div class='space-y-3 my-2'><p class='text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed'><p class="text-gray-700 leading-relaxed mb-3">Nhiều người mặc định mục tiêu duy nhất của doanh nghiệp là <strong>Tối đa hóa lợi nhuận</strong>. Tuy nhiên, doanh nghiệp cần đa dạng các loại "dinh dưỡng" để phát triển bền vững.</p>
+<div class="mermaid my-4 flex justify-center">
+mindmap
+  root((Mục tiêu Doanh nghiệp))
+    Mục tiêu Kinh tế
+      Lợi nhuận & Doanh thu
+      Thị phần
+    Mục tiêu Xã hội
+      Trách nhiệm cộng đồng CSR
+      Bảo vệ môi trường
+    Mục tiêu Nội bộ
+      Phát triển nhân sự
+      Văn hóa công ty
+</div>
+<p class="text-gray-700 leading-relaxed mt-4"><strong>Sự dịch chuyển Tư duy:</strong> Thuyết cổ đông (Shareholder Theory - chỉ quan tâm lợi nhuận) đang nhường chỗ cho Thuyết các bên liên quan (Stakeholder Theory - Khách hàng, Nhân viên, Đối tác, Cộng đồng, Cổ đông).</p></p></div>
+              </div>
+              <div class="p-6 rounded-2xl bg-gray-50 border border-gray-200 shadow-inner">
+                <h5 class="font-heading font-bold text-lg text-rikkei-navy">3.3. Hệ sinh thái số (Digital Ecosystem) trong Kinh doanh hiện đại</h5>
+                <div class='space-y-3 my-2'><p class='text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed'><p class="text-gray-700 leading-relaxed mb-3"><strong>Hệ sinh thái số (Digital Ecosystem)</strong> là một mạng lưới liên kết các thiết bị, phần mềm, dữ liệu và con người lại với nhau để tối ưu hóa vận hành.</p>
+<div class="mermaid my-4 flex justify-center">
+graph TD
+    A[Hệ Sinh Thái Số] --> B[Front-end Tương tác]
+    A --> C[Back-end Vận hành]
+    A --> D[Dữ liệu & AI]
+    B --> B1(App, Website, MXH)
+    C --> C1(ERP, CRM, POS)
+    D --> D1(Big Data, Dự báo)
+    style A fill:#dbeafe,stroke:#1d4ed8
+</div>
+<ul class="list-disc pl-5 space-y-2 text-gray-700 mt-4">
+    <li><strong>Thay đổi hành vi:</strong> Khách hàng muốn order qua App, thanh toán QR Code.</li>
+    <li><strong>Tối ưu hóa Chi phí:</strong> POS đồng bộ với kho tự động trừ hao nguyên liệu, tránh thất thoát.</li>
+    <li><strong>Dữ liệu là Tài sản:</strong> CRM gửi mã giảm giá cá nhân hóa (Personalization).</li>
+</ul></p></div>
+              </div>
+            </div>
+          </section>
+          
+
+
+          <!-- SECTION 4: CASE STUDY -->
+          <section class="space-y-6 mt-8">
+            <h4 class="font-heading font-bold text-xl text-gray-900 flex items-center gap-2">4. Ví dụ minh họa từ Tập đoàn lớn (Case Study)</h4>
+            <div class="space-y-6">
+               <div class="p-6 rounded-2xl bg-blue-50 border border-blue-200 shadow-sm">
+                 <h5 class="font-bold text-blue-900 uppercase">Doanh nghiệp Trọng tâm: The Coffee Bean</h5>
+                 <p class="text-sm text-gray-700 mt-2"><h6 class="font-bold text-rikkei-navy mb-2">Thất bại trong "Trao đổi giá trị"</h6>
+<p class="text-gray-700 leading-relaxed mb-3">The Coffee Bean vẫn bán cà phê ngon (cái họ có), nhưng khách hàng trẻ hiện nay không chỉ mua cà phê, họ mua "không gian trải nghiệm" và "sự tiện lợi" (cái khách hàng cần). Sự lệch pha này là nguyên nhân cốt lõi.</p>
+<h6 class="font-bold text-rikkei-navy mb-2 mt-4">Quyết định của nhà Quản trị:</h6>
+<ul class="list-disc pl-5 space-y-2 text-gray-700">
+    <li><strong>Không cắt giảm chất lượng</strong> (bảo vệ Giá trị khách hàng), không sa thải ồ ạt.</li>
+    <li><strong>Không vung tiền xây App riêng ngay</strong> (bảo vệ Mục tiêu kinh tế). Tích hợp vào hệ sinh thái có sẵn như ShopeeFood, GrabMart.</li>
+    <li><strong>Đầu tư POS đám mây</strong> kiểm soát thất thoát nguyên liệu, tối ưu hóa chi phí vận hành ẩn thay vì cắt xén.</li>
+</ul></p>
+               </div>
+               <div class="p-6 rounded-2xl bg-emerald-50 border border-emerald-200 shadow-sm">
+                 <h5 class="font-bold text-emerald-900 uppercase">Mở rộng: The Coffee House</h5>
+                 <p class="text-sm text-gray-700 mt-2">Ứng dụng thành công hệ thống CRM và App Pick-up để thích ứng nhanh trong mùa dịch, thu thập dữ liệu hành vi để điều chỉnh menu liên tục.</p>
+               </div>
+            </div>
+          </section>
+
+          <!-- SECTION 5 & 6 & 7: CLOSING, TAKEAWAYS, CHECK -->
+          <section class="space-y-6 mt-8">
+            <h4 class="font-heading font-bold text-xl text-gray-900 flex items-center gap-2">5. Giải quyết vấn đề (Closing the Loop)</h4>
+            <p class="text-sm text-gray-700">Ứng dụng triệt để các nguyên lý để giải quyết dứt điểm vấn đề đã nêu ở phần Đặt vấn đề.</p>
+          </section>          <!-- FOOTER NAVIGATION BAR -->
+          <div class="mt-12 pt-6 border-t border-gray-200 flex items-center justify-between">
+            <button onclick="showView('overview')" class="px-5 py-2.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold text-sm transition flex items-center gap-2"><i class="ph-bold ph-arrow-left"></i> Quay lại Danh sách</button>
+            <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="px-5 py-2.5 rounded-xl bg-rikkei-lightnavy text-rikkei-navy font-bold text-sm transition flex items-center gap-2">Cuộn lên đầu <i class="ph-bold ph-arrow-up"></i></button>
+          </div>
+        </article>        <article id="panel-s1-l2" class="lesson-panel hidden bg-white rounded-3xl p-8 md:p-10 shadow-sm border border-gray-200 space-y-8 animate-fade">
+          <div class="border-b border-gray-200 pb-6 flex flex-col md:flex-row justify-between gap-4">
+            <div>
+              <span class="text-sm font-bold text-rikkei-red uppercase tracking-widest">Lesson 2 &bull; LT</span>
+              <h3 class="font-heading font-black text-2xl md:text-3xl text-gray-900 mt-1">Phân loại hình thức doanh nghiệp (Công ty TNHH, Cổ phần, SMEs)</h3>
+            </div>
+          </div>          <!-- STORY ARC CALLOUT BOX -->
+          <div class="bg-gradient-to-r from-red-50 via-orange-50 to-amber-50 border-l-8 border-rikkei-red p-6 rounded-2xl shadow-sm space-y-3">
+            <div class="flex items-center gap-2 text-rikkei-red font-black text-sm uppercase tracking-wider"><i class="ph-bold ph-film-slate text-xl"></i> Diễn biến Cốt truyện Liền mạch tại TechNova</div>
+            <p class="text-base text-gray-800 leading-relaxed font-semibold"><strong>🔗 Kết nối bài trước:</strong> Sau khi thấu hiểu bản chất kinh doanh, ta cần chọn chiếc áo pháp lý.</p>
+          </div>
+
+          <!-- SECTION 1: BỐI CẢNH & THÁCH THỨC -->
+          <section class="space-y-6">
+            <h4 class="font-heading font-bold text-xl text-gray-900 flex items-center gap-2">1. Đặt vấn đề (The Business Hook)</h4>
+            <div class="p-6 rounded-3xl bg-gradient-to-br from-white to-red-50 border border-red-200 shadow-sm relative overflow-hidden group">
+                <div class="absolute -right-10 -top-10 w-40 h-40 bg-red-100 rounded-full blur-3xl group-hover:scale-150 transition duration-700"></div>
+                <div class="relative z-10 space-y-4">
+                    <div class="flex items-center gap-3 border-b border-red-100 pb-3">
+                        <div class="w-10 h-10 rounded-full bg-rikkei-red flex items-center justify-center text-white shrink-0 shadow-sm">
+                            <i class="ph-bold ph-warning text-xl"></i>
+                        </div>
+                        <h5 class="font-bold text-lg text-rikkei-darkred uppercase tracking-wide">Nhiệm vụ & Khủng hoảng (Mission Briefing)</h5>
+                    </div>
+                    <div class="text-base text-gray-800 leading-relaxed">
+                        <p class="mb-3 text-gray-700 leading-relaxed">Ba sinh viên khởi nghiệp chung một dự án phần mềm giáo dục (EdTech), góp vốn được 300 triệu đồng. Tuy nhiên, vì thiếu hiểu biết, họ chỉ làm giấy tay thỏa thuận với nhau mà không đăng ký thành lập doanh nghiệp.</p>
+<p class="text-gray-700 leading-relaxed font-semibold">Khi sản phẩm ra mắt, do lỗi kỹ thuật làm rò rỉ dữ liệu, họ bị đối tác kiện và yêu cầu đền bù 2 tỷ đồng. Đứng trước tòa, do không có tư cách pháp nhân bảo vệ, tòa án yêu cầu cả 3 phải <strong>thế chấp cả nhà cửa, tài sản cá nhân</strong> để trả nợ. Tình bạn và sự nghiệp tan vỡ hoàn toàn.</p>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- SECTION 2: RCA -->
+          <section class="space-y-6">
+            <h4 class="font-heading font-bold text-xl text-gray-900 flex items-center gap-2">2. Phân tích nguyên nhân gốc rễ (RCA)</h4>
+            <div class="p-6 rounded-3xl bg-gradient-to-br from-red-50/90 via-white to-amber-50/50 border-2 border-red-200 shadow-sm space-y-4">
+               <p class="text-gray-700 leading-relaxed">Nguyên nhân cốt lõi là họ đã không đăng ký một hình thức doanh nghiệp có tính chất "Trách nhiệm hữu hạn" hoặc có "Tư cách pháp nhân". Lựa chọn sai loại hình pháp lý giống như xây nhà không móng, đẩy toàn bộ rủi ro về phía tài sản cá nhân của chủ sở hữu.</p>
+            </div>
+          </section>
+
+          <!-- SECTION 3: LÝ THUYẾT -->
+          <section class="space-y-6">
+            <h4 class="font-heading font-bold text-xl text-gray-900 flex items-center gap-2">3. Giảng giải lý thuyết & Mô hình quản trị</h4>
+            <div class="space-y-4">
+              <div class="p-6 rounded-2xl bg-gray-50 border border-gray-200 shadow-inner">
+                <h5 class="font-heading font-bold text-lg text-rikkei-navy">3.1. Các loại hình doanh nghiệp theo pháp luật (Tập trung vào TNHH & Cổ phần)</h5>
+                <div class='space-y-3 my-2'><p class='text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed'><p class="text-gray-700 leading-relaxed mb-3">Hai khái niệm "cứu mạng" bất kỳ nhà khởi nghiệp nào:</p>
+<div class="mermaid my-4 flex justify-center">
+graph TD
+    A[Bảo vệ Nhà đầu tư] --> B(Tư cách Pháp nhân)
+    A --> C(Trách nhiệm Hữu hạn)
+    B -->|Thực thể độc lập| B1[Tài sản công ty tách biệt hoàn toàn với tài sản cá nhân]
+    C -->|Giới hạn rủi ro| C1[Chủ sở hữu chỉ chịu trách nhiệm tối đa bằng số vốn đã góp]
+</div>
+<ul class="list-disc pl-5 space-y-2 text-gray-700 mt-4">
+    <li><strong>Tư cách pháp nhân:</strong> Doanh nghiệp là một thực thể độc lập có quyền nhân danh chính mình tham gia quan hệ pháp luật, có tài khoản ngân hàng riêng, có quyền khởi kiện.</li>
+    <li><strong>Trách nhiệm hữu hạn:</strong> Khi công ty phá sản với khoản nợ 10 tỷ, nhưng bạn chỉ góp 500 triệu, bạn chỉ mất đúng 500 triệu. Ngôi nhà và sổ tiết kiệm cá nhân của bạn hoàn toàn an toàn.</li>
+</ul></p></div>
+              </div>
+              <div class="p-6 rounded-2xl bg-gray-50 border border-gray-200 shadow-inner">
+                <h5 class="font-heading font-bold text-lg text-rikkei-navy">3.2. Khái niệm SMEs (Doanh nghiệp Vừa và Nhỏ)</h5>
+                <div class='space-y-3 my-2'><p class='text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed'><p class="text-gray-700 leading-relaxed mb-3">So sánh hai loại hình doanh nghiệp phổ biến nhất:</p>
+<div class="overflow-x-auto my-4">
+    <table class="w-full text-sm text-left text-gray-500 border border-gray-200">
+        <thead class="text-xs text-white uppercase bg-rikkei-navy">
+            <tr>
+                <th class="px-4 py-3">Tiêu chí</th>
+                <th class="px-4 py-3">Công ty TNHH (2 TV trở lên)</th>
+                <th class="px-4 py-3">Công ty Cổ phần (JSC)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="border-b"><td class="px-4 py-3 font-bold text-gray-700">Số lượng</td><td class="px-4 py-3">2 - 50 thành viên</td><td class="px-4 py-3">Tối thiểu 3, không giới hạn tối đa</td></tr>
+            <tr class="border-b"><td class="px-4 py-3 font-bold text-gray-700">Huy động vốn</td><td class="px-4 py-3">Không được phát hành cổ phiếu</td><td class="px-4 py-3">Được phát hành cổ phiếu, trái phiếu</td></tr>
+            <tr class="border-b"><td class="px-4 py-3 font-bold text-gray-700">Chuyển nhượng</td><td class="px-4 py-3">Khó (phải chào bán cho người cũ trước)</td><td class="px-4 py-3">Rất dễ dàng, tính thanh khoản cao</td></tr>
+            <tr><td class="px-4 py-3 font-bold text-gray-700">Phù hợp</td><td class="px-4 py-3 text-emerald-600 font-semibold">Nhóm nhỏ, muốn giữ quyền kiểm soát chặt chẽ</td><td class="px-4 py-3 text-blue-600 font-semibold">Công ty lớn, khát vốn, muốn lên sàn chứng khoán</td></tr>
+        </tbody>
+    </table>
+</div></p></div>
+              </div>
+              <div class="p-6 rounded-2xl bg-gray-50 border border-gray-200 shadow-inner">
+                <h5 class="font-heading font-bold text-lg text-rikkei-navy">3.3. SMEs (Doanh nghiệp Vừa và Nhỏ)</h5>
+                <div class='space-y-3 my-2'><p class='text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed'><p class="text-gray-700 leading-relaxed mb-3">SMEs đóng vai trò là "xương sống" của nền kinh tế (chiếm >97% tổng số doanh nghiệp).</p>
+<div class="mermaid my-4 flex justify-center">
+pie title Đặc điểm của SMEs
+    "Linh hoạt & Đổi mới (Agility)" : 40
+    "Gắn kết nội bộ cao" : 30
+    "Thiếu vốn & Quản trị yếu" : 30
+</div>
+<ul class="list-disc pl-5 space-y-2 text-gray-700 mt-4">
+    <li><strong>Sự linh hoạt (Agility):</strong> Vì quy mô nhỏ, SMEs có thể thay đổi chiến lược và ra mắt sản phẩm mới chỉ trong vài tuần, điều mà các tập đoàn khổng lồ phải mất hàng tháng trời.</li>
+    <li><strong>Thách thức:</strong> Rất khó vay vốn ngân hàng, hệ thống quản trị rập khuôn phụ thuộc quá nhiều vào người sáng lập (Founder).</li>
+</ul></p></div>
+              </div>
+            </div>
+          </section>
+          
+
+
+          <!-- SECTION 4: CASE STUDY -->
+          <section class="space-y-6 mt-8">
+            <h4 class="font-heading font-bold text-xl text-gray-900 flex items-center gap-2">4. Ví dụ minh họa từ Tập đoàn lớn (Case Study)</h4>
+            <div class="space-y-6">
+               <div class="p-6 rounded-2xl bg-blue-50 border border-blue-200 shadow-sm">
+                 <h5 class="font-bold text-blue-900 uppercase">Doanh nghiệp Trọng tâm: TechNova</h5>
+                 <p class="text-sm text-gray-700 mt-2">Khi mới thành lập, FPT là công ty quy mô nhỏ, sau đó chuyển đổi thành Công ty Cổ phần (JSC) để huy động hàng ngàn tỷ đồng trên sàn chứng khoán, mở rộng quy mô toàn cầu.</p>
+               </div>
+               <div class="p-6 rounded-2xl bg-emerald-50 border border-emerald-200 shadow-sm">
+                 <h5 class="font-bold text-emerald-900 uppercase">Mở rộng: Quán phở gia truyền</h5>
+                 <p class="text-sm text-gray-700 mt-2">Mô hình Hộ kinh doanh hoặc TNHH 1 thành viên giúp gia đình giữ bí quyết kinh doanh, tránh người ngoài xen vào ban quản trị.</p>
+               </div>
+            </div>
+          </section>
+
+          <!-- SECTION 5 & 6 & 7: CLOSING, TAKEAWAYS, CHECK -->
+          <section class="space-y-6 mt-8">
+            <h4 class="font-heading font-bold text-xl text-gray-900 flex items-center gap-2">5. Giải quyết vấn đề (Closing the Loop)</h4>
+            <p class="text-sm text-gray-700">Ứng dụng triệt để các nguyên lý để giải quyết dứt điểm vấn đề đã nêu ở phần Đặt vấn đề.</p>
+          </section>          <!-- FOOTER NAVIGATION BAR -->
+          <div class="mt-12 pt-6 border-t border-gray-200 flex items-center justify-between">
+            <button onclick="showView('overview')" class="px-5 py-2.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold text-sm transition flex items-center gap-2"><i class="ph-bold ph-arrow-left"></i> Quay lại Danh sách</button>
+            <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="px-5 py-2.5 rounded-xl bg-rikkei-lightnavy text-rikkei-navy font-bold text-sm transition flex items-center gap-2">Cuộn lên đầu <i class="ph-bold ph-arrow-up"></i></button>
+          </div>
+        </article>        <article id="panel-s1-lbtth" class="lesson-panel hidden bg-white rounded-3xl p-8 md:p-10 shadow-sm border border-gray-200 space-y-8 animate-fade">
+          <div class="border-b border-gray-200 pb-6 flex flex-col md:flex-row justify-between gap-4">
+            <div>
+              <span class="text-sm font-bold text-rikkei-red uppercase tracking-widest">Lesson btth &bull; TH</span>
+              <h3 class="font-heading font-black text-2xl md:text-3xl text-gray-900 mt-1">Lựa chọn Mô hình và Định vị Mục tiêu Kinh doanh</h3>
+            </div>
+          </div>          <div class="bg-gradient-to-r from-emerald-50 to-teal-50 border-l-8 border-emerald-500 p-6 rounded-2xl shadow-sm space-y-3">
+            <div class="flex items-center gap-2 text-emerald-700 font-black text-sm uppercase tracking-wider"><i class="ph-bold ph-target text-xl"></i> Bài toán Thực tế tại GreenBite - Chuỗi thức ăn nhanh Healthy</div>
+            <p class="text-base text-gray-800 leading-relaxed font-semibold"><p class="mb-3 text-gray-700 dark:text-gray-200 leading-relaxed">Bạn và hai người cộng sự (một đầu bếp chuyên nghiệp và một chuyên gia marketing) quyết định thành lập <strong>GreenBite</strong> - một chuỗi cửa hàng thức ăn nhanh chuyên phục vụ các món ăn eat-clean và hữu cơ dành cho dân văn phòng tại trung tâm TP.HCM.</p>
+<p class="mb-3 text-gray-700 dark:text-gray-200 leading-relaxed">Tổng số vốn ban đầu nhóm gom được là 1 tỷ đồng. Tuy nhiên, các thành viên đang tranh cãi gay gắt về định hướng ban đầu:</p>
+<ul class="list-disc pl-5 space-y-2 text-gray-700 dark:text-gray-300">
+    <li><strong>Đầu bếp:</strong> Muốn sử dụng 100% nguyên liệu nhập khẩu đắt tiền để đạt chất lượng 5 sao, nhưng như vậy giá bán sẽ rất cao và biên lợi nhuận thấp.</li>
+    <li><strong>Chuyên gia Marketing:</strong> Muốn lập Công ty Cổ phần ngay lập tức để gọi vốn từ cộng đồng (Crowdfunding) nhằm mở luôn 3 chi nhánh, bất chấp rủi ro mất quyền kiểm soát.</li>
+    <li><strong>Bạn (CEO):</strong> Nhận thấy cả nhóm đang rối bời, chưa thống nhất được mục tiêu cốt lõi và chưa chốt được tư cách pháp nhân để ký hợp đồng thuê mặt bằng. Nếu không giải quyết ngay, dự án sẽ đổ vỡ từ trong trứng nước.</li>
+</ul></p>
+          </div>
+          
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
+            <div class="p-6 rounded-2xl bg-white border-2 border-emerald-300 shadow-sm space-y-3">
+              <h5 class="font-bold text-emerald-800">Task 1: Phân tích và Thiết lập Hệ thống Mục tiêu (Vận dụng)</h5>
+              <p class="text-sm text-gray-700"><p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed mb-3">Hãy xây dựng một bảng mục tiêu cân bằng cho GreenBite trong 1 năm đầu tiên, bao gồm:</p>
+<ul class="list-disc pl-5 space-y-2 text-sm text-gray-700 dark:text-gray-300 mb-3">
+    <li>2 Mục tiêu Kinh tế (Ví dụ: Doanh thu, số lượng khách, điểm hòa vốn).</li>
+    <li>1 Mục tiêu Xã hội (Liên quan đến sức khỏe cộng đồng hoặc môi trường).</li>
+    <li>Lập luận ngắn gọn để thuyết phục Đầu bếp hiểu rằng: Tối đa hóa chất lượng không phải là mục tiêu duy nhất của kinh doanh.</li>
+</ul>
+<div class="mt-4 p-3 bg-emerald-50 dark:bg-slate-800 rounded-lg border-l-4 border-emerald-500">
+    <p class="text-xs font-bold text-emerald-800 dark:text-emerald-400 mb-1"><i class="ph-bold ph-lightbulb"></i> Gợi ý:</p>
+    <p class="text-xs text-gray-600 dark:text-gray-400">Áp dụng lý thuyết "Sự dịch chuyển sang tạo lập giá trị". Hãy giải thích cho đầu bếp hiểu rằng nếu giá quá cao, khách hàng không mua -> Không có trao đổi giá trị -> Doanh nghiệp sẽ chết yểu trước khi kịp mang lại lợi ích xã hội.</p>
+</div></p>
+            </div>
+            <div class="p-6 rounded-2xl bg-white border-2 border-blue-300 shadow-sm space-y-3">
+              <h5 class="font-bold text-blue-800">Task 2: Đánh giá và Lựa chọn Hình thức Pháp lý (Đánh giá)</h5>
+              <p class="text-sm text-gray-700"><p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed mb-3">Hãy phản biện lại ý kiến của chuyên gia Marketing về việc lập Công ty Cổ phần. Sau đó, đề xuất 1 loại hình doanh nghiệp phù hợp nhất cho nhóm 3 người với 1 tỷ đồng vốn ở thời điểm hiện tại.</p>
+<p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed mb-3">Hãy đưa ra ít nhất 2 lý do pháp lý và quản trị để bảo vệ đề xuất của bạn.</p>
+<div class="mt-4 p-3 bg-blue-50 dark:bg-slate-800 rounded-lg border-l-4 border-blue-500">
+    <p class="text-xs font-bold text-blue-800 dark:text-blue-400 mb-1"><i class="ph-bold ph-lightbulb"></i> Gợi ý:</p>
+    <p class="text-xs text-gray-600 dark:text-gray-400">Sử dụng Bảng so sánh TNHH và Cổ phần trong bài lý thuyết. Từ khóa cần dùng để phản biện: Sự phức tạp trong quản trị, Nguy cơ thâu tóm, Sự phù hợp với quy mô SMEs.</p>
+</div></p>
+            </div>
+            <div class="p-6 rounded-2xl bg-white border-2 border-amber-300 shadow-sm space-y-3">
+              <h5 class="font-bold text-amber-800">Task 3: Tích hợp Hệ sinh thái Số (Đề xuất)</h5>
+              <p class="text-sm text-gray-700"><p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed mb-3">Trong bối cảnh nguồn vốn có hạn, thay vì tự code một App đặt đồ ăn đắt đỏ, hãy đề xuất 3 công cụ/nền tảng công nghệ sẵn có (Front-end và Back-end) để tạo thành một hệ sinh thái số tinh gọn giúp GreenBite bán hàng và quản lý đơn hàng tự động.</p>
+<div class="mt-4 p-3 bg-amber-50 dark:bg-slate-800 rounded-lg border-l-4 border-amber-500">
+    <p class="text-xs font-bold text-amber-800 dark:text-amber-400 mb-1"><i class="ph-bold ph-lightbulb"></i> Gợi ý:</p>
+    <p class="text-xs text-gray-600 dark:text-gray-400">Cân nhắc các giải pháp như: Bán hàng qua nền tảng bên thứ 3 (GrabFood/ShopeeFood), thanh toán bằng mã QR động (VNPay/MoMo), và quản lý nội bộ bằng phần mềm POS đám mây (KiotViet/Sapo).</p>
+</div></p>
+            </div>
+          </div>          <!-- FOOTER NAVIGATION BAR -->
+          <div class="mt-12 pt-6 border-t border-gray-200 flex items-center justify-between">
+            <button onclick="showView('overview')" class="px-5 py-2.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold text-sm transition flex items-center gap-2"><i class="ph-bold ph-arrow-left"></i> Quay lại Danh sách</button>
+            <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="px-5 py-2.5 rounded-xl bg-rikkei-lightnavy text-rikkei-navy font-bold text-sm transition flex items-center gap-2">Cuộn lên đầu <i class="ph-bold ph-arrow-up"></i></button>
+          </div>
+        </article>      </div>
+    </div>  </main>
+</div>
+
+<!-- BACK TO TOP BUTTON -->
+<button id="backToTop" onclick="window.scrollTo({top:0, behavior:'smooth'})" class="fixed bottom-8 right-8 w-12 h-12 rounded-full bg-rikkei-red text-white shadow-lg flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300 hover:bg-red-700 z-50 transform translate-y-4">
+  <i class="ph-bold ph-caret-up text-xl"></i>
+</button>
+
+<script>
+  // UI CONTROLS JAVASCRIPT
+  function hideAllViews() {
+    document.querySelectorAll('[id^="view-"]').forEach(el => {
+      el.classList.add('hidden');
+      el.classList.remove('animate-fade');
+    });
+  }
+
+  function showView(viewId) {
+    hideAllViews();
+    const view = document.getElementById(viewId);
+    if(view) {
+      view.classList.remove('hidden');
+      void view.offsetWidth;
+      view.classList.add('animate-fade');
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+  }
+
+  function showSession(sNum) {
+    showView('view-session-' + sNum);
+    showLessonTab(sNum, 1);
+  }
+
+  function showLessonTab(sNum, lNum) {
+    const parent = document.getElementById('view-session-' + sNum);
+    if(!parent) return;
+    
+    parent.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+    parent.querySelectorAll('.lesson-panel').forEach(panel => {
+      panel.classList.add('hidden');
+      panel.classList.remove('animate-fade');
+    });
+    
+    const btnId = 'btn-s' + sNum + '-l' + lNum;
+    const panelId = 'panel-s' + sNum + '-l' + lNum;
+    
+    const btn = document.getElementById(btnId);
+    if(btn) btn.classList.add('active');
+    
+    const panel = document.getElementById(panelId);
+    if(panel) {
+      panel.classList.remove('hidden');
+      void panel.offsetWidth;
+      panel.classList.add('animate-fade');
+      setTimeout(() => mermaid.init(undefined, panel.querySelectorAll('.mermaid')), 100);
+    }
+  }
+
+  function toggleSidebar() {
+    document.getElementById('sidebar').classList.toggle('-translate-x-full');
+  }
+  function closeSidebar() {
+    if(window.innerWidth < 1024) {
+      document.getElementById('sidebar').classList.add('-translate-x-full');
+    }
+  }
+  document.getElementById('sidebarTrigger').addEventListener('click', toggleSidebar);
+
+  // THEME TOGGLE
+  function toggleTheme() {
+    document.body.classList.toggle('dark-theme');
+    const icon = document.getElementById('themeToggleIcon');
+    if(document.body.classList.contains('dark-theme')) {
+      icon.classList.replace('ph-moon-stars', 'ph-sun');
+      icon.classList.replace('ph-moon', 'ph-sun');
+    } else {
+      icon.classList.replace('ph-sun', 'ph-moon-stars');
+    }
+  }
+
+  // PET TOGGLE
+  function togglePetVisibility() {
+    alert('🐷 Web Pet is active! (Tính năng mô phỏng)');
+  }
+
+  // BACK TO TOP
+  function renderMarkmaps() {
+      const { Markmap, loadCSS, loadJS, Transformer } = window.markmap;
+      const transformer = new Transformer();
+      
+      document.querySelectorAll('.markmap-container').forEach(container => {
+        const svg = container.querySelector('svg');
+        const scriptEl = container.querySelector('script[type="text/template"]');
+        if (!svg || !scriptEl) return;
+        
+        const markdown = scriptEl.textContent.trim();
+        const { root, features } = transformer.transform(markdown);
+        const { styles, scripts } = transformer.getUsedAssets(features);
+        
+        if (styles) loadCSS(styles);
+        if (scripts) loadJS(scripts, { getMarkmap: () => window.markmap });
+        
+        Markmap.create(svg, {
+          color: (node) => {
+            const colors = ['#C00000', '#3C2F6A', '#059669', '#D97706', '#2563EB', '#9333EA'];
+            return colors[node.depth % colors.length];
+          },
+          style: id => id + " * { font-family: 'Inter', sans-serif; font-weight: 600; }",
+          autoFit: true
+        }, root);
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      showView('view-overview');
+      if (typeof initGlossary === 'function') initGlossary();
+    });
+
+  window.addEventListener('scroll', () => {
+    const b2t = document.getElementById('backToTop');
+    if(window.scrollY > 300) {
+      b2t.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-4');
+      b2t.classList.add('opacity-100', 'translate-y-0');
+    } else {
+      b2t.classList.add('opacity-0', 'pointer-events-none', 'translate-y-4');
+      b2t.classList.remove('opacity-100', 'translate-y-0');
+    }
+  });
+
+  // INITIALIZATION
+  mermaid.initialize({ startOnLoad: false, theme: 'default', securityLevel: 'loose' });
+  showView('view-overview');
+</script>
+</body>
+</html>
